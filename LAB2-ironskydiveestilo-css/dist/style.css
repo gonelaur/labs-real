@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+.nav-bar {
+  background-color: #1a1a66;
+}
+.nav-bar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+header h2 {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+
+.quote p:first-of-type {
+  font-size: 2.5em;
+}
+#general-information {
+  background-color: #1a1a66;
+  color: white;
+  text-align: center;
+}
+
+#general-information p {
+  font-size: 2em;
+  font-weight: 100;
+}
+.link-btn {
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-btn:hover {
+  background-color: white;
+  color: rgb(67, 163, 230);
+}
+ #day-structure {
+    background-color: #1a1a66;
+    color: white;
+    text-align: center;
+  }
+
+  .link-btn {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #day-structure h3:nth-of-type(1) {
+    text-align: center;
+  }
+
+  #day-structure h3:nth-of-type(2) {
+    text-align: center;
+  }
+
+  #day-structure h3:nth-of-type(3) {
+    text-align: right;
+  }
+
+  .service-box img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .service-box h4 {
+    font-size: 1.7em;
+    text-align: center;
+  }
+
+  #day-structure .service-box {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#day-structure .service-box img {
+  width: 125px;
+  height: 125px;
+}
+#day-structure {
+  background-color: white;
+  color: black;
+}
+#team {
+  background-color: #1a1a66;
+}
+
+#team h3 {
+  color: #FFFFFF;
+}
+
+#team .section-text p {
+  font-size: 1.9em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#team .member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+#team img {
+  width: 250px;
+  height: 180px;
+}
+footer {
+  background-color: #1a1a66;
+  text-align: center;
+  font-size: 1.9em;
+  color: #FFFFFF;
+}
+
+footer address {
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+.footer-list a {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
