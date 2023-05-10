@@ -1,8 +1,196 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+/* General Styling */
+* {
+  margin: 0;
+}
+
+body {
+  background: white;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+main {
+  margin: 5rem 0;
+}
+
+/* Nav Bar Styling */
+
+Header {
+  position: fixed;
+  z-index: 1;
+  z-index: 9999;  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+} */
+
+.navigation img {
+  width: 10%;
+}
+
+.spotify-logo {
+  width: 160px;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+
+  /* flex properties */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 16px;
+}
+
+/* Show Hide Logic CSS */
+.show-img {
+  display: block;
+}
+.hide-img {
+  display: none;
+}
+
+/* header > img {
+  width: 25%;
+} */
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation ul > li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation ul > li > a:hover {
+  color: #00b172;
+}
+
+.navigation ul {
+  margin-left: 50px auto; 
+}
+
+/* Music For everyone - Styling */
+
+.music {
+  height: 600px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.music p {
+  margin-bottom: 0.5rem;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+/* Whats on spotify - Styling */
+.card img {
+  width: 20%;
+}
+.ability h2 {
+  text-align: center;
+  padding: 2rem 0;
+  text-decoration: underline #00b172;
+  text-underline-offset: 0.5rem;
+  font-size: 2rem;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  padding: 2rem 0rem;
+}
+
+.card h3 {
+  color: #00b172;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  max-width: 150px;
+  text-align: center;
+  font-weight: 100;
+  font-style: 1, 5rem;
+}
+
+/* last section with greeen background */
+.kanye {
+  height: 800px;
+  background: #00b172;
+  background-image: url("/lab-css-spotify-clone-es-master/images/spotify-icon-white.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 75px;
+}
+.kanye img {
+  width: 300px;
+  margin: 100px;
+  padding-left: 120px;
+}
+
+.text-container h3 {
+  text-decoration: underline white;
+  text-underline-offset: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.text-container h4 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.text-container p {
+  font-weight: 100;
+  font-size: 1rem;
+  max-width: 200px;
+  margin-bottom: 2rem;
+  line-height: 2;
+}
