@@ -102,10 +102,6 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
 
-#### Day One
-
-#### Day One
-
 ###### Lunes 23, Enero 2023
 
 - [ ] Tarea no completada
@@ -113,21 +109,41 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [ ] Ej - Crear section "projects" en html
 - [x] Ej - Crear section "projects" en html
 
+#### Day One
+- [x] Start coding the HTML structure of the website.
+- [x] Create the basic layout using semantic HTML elements.
+- [x] Add placeholder content to each section of the page.
+
 #### Day Two
 
-###### Martes 24, Enero 2023
+- [ ] Begin styling the website using CSS.
+- [ ] Define a color scheme, typography, and overall visual style.
+- [ ] Implement responsive design principles to ensure the site looks good on mobile devices.
+
 
 #### Day Three
 
-###### Miercoles 25, Enero 2023
+- [ ] Refine the layout and positioning of page elements.
+- [ ] Use CSS Flexbox or Grid to create responsive and flexible layouts.
+- [ ] Fine-tune the spacing, margins, and padding of different elements.
 
-#### Day Four
 
-###### Jueves 26, Enero 2023
+#### Day Four 
+
+- [ ] Add interactivity and functionality to the website using JavaScript.
+- [ ] Identify the key interactions or features that require JavaScript implementation.
+- [ ] Write JavaScript code to handle user interactions, form submissions, or dynamic content.
+- [ ] Test and debug the JavaScript code to ensure proper functionality.
+
 
 #### Day Five
 
-###### Viernes 27, Enero 2023
+- [ ] Review and refine the website's design, layout, and functionality.
+
+
+#### Day Six
+
+- [ ] Set up hosting and deploy the website to a web server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
